@@ -1,0 +1,355 @@
+/* <style id="beeteam368_obj_wes_style-inline-css" type="text/css"> */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+  .nav-logo .nav-logo-img img.main-logo {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .nav-logo .nav-logo-img a.logo-link {
+    background: url("https://vegamovies.de/wp-content/uploads/2022/03/Logo.png")
+      no-repeat center;
+    background-size: contain;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 992px),
+  (min-resolution: 192dpi) and (min-width: 992px) {
+  .main-nav.sticky-menu .nav-logo-img img.sticky-logo {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .main-nav.sticky-menu .nav-logo-img a.logo-link {
+    background: url("https://vegamovies.de/wp-content/uploads/2022/03/Logo.png")
+      no-repeat center;
+    background-size: contain;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 991px),
+  (min-resolution: 192dpi) and (max-width: 991px) {
+  .nav-logo .nav-logo-img img.main-logo-mobile {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .nav-logo .nav-logo-img a.logo-link {
+    background: url("https://vegamovies.de/wp-content/uploads/2022/03/Logo.png")
+      no-repeat center;
+    background-size: contain;
+  }
+}
+
+header.entry-header.movie-style {
+  background-image: url("https://vegamovies.de/wp-content/themes/vegamovies/img/film-background.jpg");
+}
+
+.main-nav {
+  background-color: rgba(43, 52, 51, 1);
+}
+
+.nav-menu > ul > li:hover > a {
+  background-color: rgba(39, 47, 46, 1);
+}
+
+.nav-menu > ul > li.current-menu-ancestor:not(.top-megamenu) > a,
+.nav-menu > ul > li.current-menu-item:not(.top-megamenu) > a {
+  background-color: rgba(39, 47, 46, 1);
+}
+
+.nav-menu > ul > li ul li:hover > a {
+  background-color: rgba(43, 52, 51, 1);
+}
+
+.nav-menu > ul > li ul li.current-menu-ancestor > a,
+.nav-menu > ul > li ul li.current-menu-item > a {
+  background-color: rgba(43, 52, 51, 1);
+}
+
+@media (min-width: 992px) {
+  .header-sport .top-nav {
+    background-color: rgba(43, 52, 51, 1);
+  }
+}
+
+.top-search-box .top-search-box-wrapper .search-terms-textfield {
+  background-color: rgba(39, 47, 46, 1);
+}
+
+.top-search-box
+  .top-search-box-wrapper
+  .search-terms-textfield:-webkit-autofill,
+.top-search-box
+  .top-search-box-wrapper
+  .search-terms-textfield:-webkit-autofill:hover,
+.top-search-box
+  .top-search-box-wrapper
+  .search-terms-textfield:-webkit-autofill:focus,
+.top-search-box
+  .top-search-box-wrapper
+  .search-terms-textfield:focus:-webkit-autofill {
+  background-color: rgba(39, 47, 46, 1) !important;
+  -webkit-box-shadow: 0 0 0 50px rgba(39, 47, 46, 1) inset;
+  box-shadow: 0 0 0 50px rgba(39, 47, 46, 1) inset;
+}
+
+.navigation-font,
+div.bbp-breadcrumb,
+#bbpress-forums div.bbp-breadcrumb > p,
+#bbpress-forums .bbp-pagination,
+.widget_nav_menu {
+  text-transform: capitalize;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+  -webkit-transition: color 0.3s, background-color 0.3s, border-color 0.3s;
+}
+
+.top-content .nav-logo .nav-logo-img img {
+  max-height: 70px;
+  max-width: none;
+}
+
+.nav-menu > ul > div.menu > ul > li > a,
+.nav-menu > ul > li > a {
+  padding-left: 10px;
+  padding-right: 15px;
+}
+
+.imdb_container a {
+  pointer-events: none;
+  cursor: default;
+}
+
+span.imdb_copyright {
+  display: none;
+}
+
+.alerrt {
+  background: linear-gradient(135deg, #a86e8e, #87610c);
+  margin-bottom: 8px;
+  padding: 8px;
+  color: #ffffff;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  float: right;
+  font-size: 24px;
+  line-height: 27px;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.dwd-button {
+  color: #ffffff !important;
+  min-width: 190px !important;
+  background: linear-gradient(135deg, #ab7171, #f2528e) !important;
+  margin-bottom: 15px !important;
+}
+
+.post-title.h5 {
+  font-size: 15px !important;
+}
+
+h3,
+.h3 {
+  font-size: 18px !important;
+}
+
+h5,
+.h5 {
+  font-size: 18px !important;
+}
+
+.butt2 {
+  background: #f6581a !important;
+  border-radius: 10px !important;
+  min-width: 50px !important;
+  cursor: pointer !important;
+  color: #fff !important;
+  margin: 0px 0 3px 0px !important;
+  font-weight: 500 !important;
+  padding: 5px !important;
+}
+
+.butt2:hover {
+  background: #ff0 !important;
+  border-color: #000 !important;
+}
+
+.butt2:active {
+  position: relative !important;
+  top: 1px !important;
+}
+
+.blog-pic {
+  box-shadow: 0 9px 14px -7px #fff !important;
+}
+
+.mytime {
+  color: #948a8a !important;
+  text-align: center !important;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .movie-grid .post-item {
+    width: 20%;
+    margin-bottom: 30px;
+  }
+}
+
+.top-content .nav-logo-img,
+.top-content .top-ad-content {
+  min-height: 100px !important;
+}
+
+.asl_m,
+.asl_m .probox {
+  background-color: transparent;
+}
+
+button:not([aria-controls]):not([aria-live]),
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.basic-button-default,
+.next-content a,
+.prev-content a,
+.pmpro_btn,
+.pmpro_btn:link,
+.pmpro_content_message a,
+.pmpro_content_message a:link,
+.pmpro_checkout .pmpro_btn,
+#nav-below.navigation a,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.wp-block-button__link {
+  padding: 12px 20px;
+  position: relative;
+  z-index: 0;
+  margin: 4px;
+  min-width: 160px;
+  box-shadow: 0 5px 14px -7px #fff !important;
+  background: #ca5050;
+}
+
+.collapseomatic {
+  background-image: url();
+  background-repeat: no-repeat;
+  padding: 0 0 10px 16px;
+  font-size: 18px;
+  color: yellow;
+}
+
+.page-404-wrapper .img-404 {
+  max-width: 550px;
+}
+
+.page-404-wrapper h1 {
+  font-size: 45px;
+}
+
+.single-feature-image,
+.single-image-gallery,
+.single-post-quote {
+  margin-bottom: 40px;
+  display: none;
+}
+
+#header-social {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.button {
+  font-family: poppins, sans-serif;
+  color: white;
+  padding: 8px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 5px 1px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  min-width: 170px;
+  box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.buttontg {
+  background-color: #009de1;
+  text-transform: uppercase;
+  border-radius: 15%;
+}
+
+.howtodl {
+  background-color: #df9a17;
+  text-transform: uppercase;
+  border-radius: 15%;
+}
+
+.desijunx {
+  background-color: red;
+  text-transform: uppercase;
+  border-radius: 15%;
+  font-weight: 500;
+}
+
+.bollywood {
+  background-color: #44b81a;
+  text-transform: uppercase;
+  border-radius: 15%;
+  font-weight: 500;
+}
+
+#header-category {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.hcategory {
+  font-family: poppins, sans-serif;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  min-width: 70px;
+  box-shadow: 0px 0px 32px -10px #fe0000;
+}
+
+.hccateg {
+  background-color: #df133c;
+  text-transform: uppercase;
+  border-radius: 15%;
+}
+
+.adultimg {
+  margin-bottom: -9px;
+  padding: 3px;
+  float: left;
+  margin-left: 10px;
+}
