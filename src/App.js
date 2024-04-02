@@ -23,6 +23,7 @@ import ProductHome from "./cart-Demo/Home";
 import Todo from "./TodoApp/Task";
 import Todos from "./pages/Todo/Todos";
 import Calculator from "./pages/Calculator";
+import SignupPage from "./pages/MuiSignup";
 // import styles from "./assets/appStyle.module.css";
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           <Routes>
             <Route path='/cartdemo' element={<ProductHome />}></Route>
             <Route path='/Calculator' element={<Calculator />}></Route>
+            <Route path='/SignupPage' element={<SignupPage />}></Route>
 
             <Route path='/movie' element={<Movie />}></Route>
             <Route path='/loadmore' element={<LoadMore />}></Route>
