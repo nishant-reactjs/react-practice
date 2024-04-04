@@ -24,15 +24,17 @@ import Todo from "./TodoApp/Task";
 import Todos from "./pages/Todo/Todos";
 import Calculator from "./pages/Calculator";
 import SignupPage from "./pages/MuiSignup";
+import Dashboard from "./pages/Dashboard";
 // import styles from "./assets/appStyle.module.css";
 
 function App() {
   return (
     <>
       <Router>
-        <Header />
+        {/* <Header /> */}
         <div className='container'>
           <Routes>
+            <Route path='/dashboard' element={<Dashboard />}></Route>
             <Route path='/cartdemo' element={<ProductHome />}></Route>
             <Route path='/Calculator' element={<Calculator />}></Route>
             <Route path='/SignupPage' element={<SignupPage />}></Route>
